@@ -11,7 +11,7 @@ A curated list of static analysis tools for PHP.
 *   Standalone
     *   [Bugs finders](#bugs-finders)
     *   [Bugs finders(Specialized)](#bugs-findersspecialized)
-    *   [Bugs finders(Security)](#bugs-findersecurity)
+    *   [Bugs finders(Security)](#bugs-finderssecurity)
     *   [Coding standards](#coding-standards)
     *   [Compatibility](#compatibility)
     *   [Fixers](#fixers)
@@ -20,6 +20,7 @@ A curated list of static analysis tools for PHP.
         *   [Benchmark](#benchmark)
 *   [Tools package](#tools-package)
 *   [DIY(Libraries)](#diylibraries)
+*   [Online](#online)
 *   [SaaS](#saas)
 *   [Misc](#misc)
 
@@ -158,6 +159,11 @@ A curated list of static analysis tools for PHP.
 *   [PHP Coupling Detector](https://github.com/akeneo/php-coupling-detector)
 *   [php-parser](https://github.com/glayzzle/php-parser) - A NodeJS library.
 
+## Online
+
+*   [devbug](http://www.devbug.co.uk/) - PHP Static Code Analysis.
+*   [3v4l.org](https://3v4l.org/) - run code in 150+ php & hhvm versions
+
 ## SaaS
 
 *   [PHPCI](https://www.phptesting.org/)
@@ -168,11 +174,6 @@ A curated list of static analysis tools for PHP.
 *   [RIPS](https://www.ripstech.com/) - Automated Security Analysis for PHP Code.
 *   [Code Climate](https://codeclimate.com) - `PHP Code Sniffer`, `PHP Mess Detector`.
 *   [Bliss](https://blissai.com)
-
-## Online
-
-*   [devbug](http://www.devbug.co.uk/) - PHP Static Code Analysis.
-*   [3v4l.org](https://3v4l.org/) - run code in 150+ php & hhvm versions
 
 ## Misc
 
