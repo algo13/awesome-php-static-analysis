@@ -48,7 +48,7 @@ A curated list of static analysis tools for PHP.
 | [Phan](https://github.com/etsy/phan)           | PHP7+<br>[php-ast](https://github.com/nikic/php-ast)           |         | YES  | `nikic/php-ast`       |                                                                 |
 | [PHPMD](https://github.com/phpmd/phpmd)        | PHP5.3+                                                        |         | YES  | `pdepend/pdepend`     | cleancode,codesize<br>controversial,design<br>naming,unusedcode |
 | [PHP SA](https://github.com/ovr/phpsa)         | PHP5.5+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    |                                                                 |
-| [PHP Stan](https://github.com/phpstan/phpstan) | PHP7+                                                          | PHP5.6+ | NO   | `nikic/php-parser`    |                                                                 |
+| [PHPStan](https://github.com/phpstan/phpstan)  | PHP7+                                                          | PHP5.6+ | NO   | `nikic/php-parser`    |                                                                 |
 | [php-nag](https://github.com/algo13/php-nag)   | PHP5.4+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    | Deprecated functions,<br>Fall through, etc ...                  |
 | [Tuli](https://github.com/ircmaxell/Tuli)      | PHP5.5+                                                        |         | NO   | `ircmaxell/php-types` | Function Types                                                  |
 
@@ -128,8 +128,8 @@ A curated list of static analysis tools for PHP.
 
 #### API documentation generator
 
-*   [phpDocumentor](https://github.com/FriendsOfPHP/Sami)
-*   [Sami](https://www.phpdoc.org/)
+*   [phpDocumentor](https://www.phpdoc.org/)
+*   [Sami](https://github.com/FriendsOfPHP/Sami)
 *   [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
 
 #### Benchmark
