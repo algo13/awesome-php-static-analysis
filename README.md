@@ -40,22 +40,24 @@ A curated list of static analysis tools for PHP.
     $ find ./ -name "*.php" | xargs -n1 php -l
     ```
 
-*   [PHPLint](https://github.com/overtrue/phplint) - A tool that can speed up linting of php files by running several lint processes at once.
+    *   [PHP Parallel Lint](https://github.com/JakubOnderka/PHP-Parallel-Lint) - This tool check syntax of PHP files faster than serial check with fancier output.
+    *   [PHPLint](https://github.com/overtrue/phplint) - A tool that can speed up linting of php files by running several lint processes at once.
 
 
-| Name                                           | Run                                                            | Target  | phar | Depend                | Notes                                                           |
-|------------------------------------------------|----------------------------------------------------------------|---------|------|-----------------------|-----------------------------------------------------------------|
-| [Phan](https://github.com/etsy/phan)           | PHP7+<br>[php-ast](https://github.com/nikic/php-ast)           |         | YES  | `nikic/php-ast`       |                                                                 |
-| [PHPMD](https://github.com/phpmd/phpmd)        | PHP5.3+                                                        |         | YES  | `pdepend/pdepend`     | cleancode,codesize<br>controversial,design<br>naming,unusedcode |
-| [PHP SA](https://github.com/ovr/phpsa)         | PHP5.5+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    |                                                                 |
-| [PHPStan](https://github.com/phpstan/phpstan)  | PHP7+                                                          | PHP5.6+ | NO   | `nikic/php-parser`    |                                                                 |
-| [php-nag](https://github.com/algo13/php-nag)   | PHP5.4+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    | Deprecated functions,<br>Fall through, etc ...                  |
-| [Tuli](https://github.com/ircmaxell/Tuli)      | PHP5.5+                                                        |         | NO   | `ircmaxell/php-types` | Function Types                                                  |
+| Name                                              | Run                                                            | Target  | phar | Depend                | Notes                                                           |
+|---------------------------------------------------|----------------------------------------------------------------|---------|------|-----------------------|-----------------------------------------------------------------|
+| [Phan](https://github.com/etsy/phan)              | PHP7+<br>[php-ast](https://github.com/nikic/php-ast)           |         | YES  | `nikic/php-ast`       |                                                                 |
+| [PHPMD](https://github.com/phpmd/phpmd)           | PHP5.3+                                                        |         | YES  | `pdepend/pdepend`     | cleancode,codesize<br>controversial,design<br>naming,unusedcode |
+| [PHP SA](https://github.com/ovr/phpsa)            | PHP5.5+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    |                                                                 |
+| [PHPLinter](https://github.com/robotis/PHPLinter) |                                                                |         | NO   |                       | Updated on 16 Aug 2012                                          |
+| [PHPStan](https://github.com/phpstan/phpstan)     | PHP7+                                                          | PHP5.6+ | NO   | `nikic/php-parser`    |                                                                 |
+| [php-nag](https://github.com/algo13/php-nag)      | PHP5.4+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    | Deprecated functions,<br>Fall through, etc ...                  |
+| [Tuli](https://github.com/ircmaxell/Tuli)         | PHP5.5+                                                        |         | NO   | `ircmaxell/php-types` | Function Types                                                  |
 
-*   [Eir](https://github.com/Lixody/Eir) - Written in C#.
 *   [17eyes](https://github.com/17eyes/17eyes) - Written in Haskell.
 *   [Yasca](http://yasca.org) - Including [PHPLint](http://www.icosaedro.it/phplint/).
-*   [SonarQube](http://www.sonarqube.org/) - Open platform to manage code quality.
+*   [SonarQube](http://www.sonarqube.org) - Open platform to manage code quality.
+*   [SonarLint](http://www.sonarlint.org) - An extension to your favorite IDE.
 *   [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) - [PhpStorm](https://www.jetbrains.com/phpstorm/) plugin.
 
 ### Bugs finders(Specialized)
@@ -78,6 +80,8 @@ A curated list of static analysis tools for PHP.
 | [phpvulhunter](https://github.com/OneSourceCat/phpvulhunter)            | Browser | `nikic/php-parser`  | Vulnerabilities                                                                     |
 | [RIPS](https://github.com/ripsscanner/rips)                             | Browser |                     | Vulnerabilities<br>(OOP not supported)                                              |
 | [psecio/parse](https://github.com/psecio/parse)                         | CLI     | `nikic/php-parser`  | A PHP Security Scanner.                                                             |
+| [VisualCodeGrepper](https://github.com/nccgroup/VCG)                    | GUI     |                     | Written in VisualBasic.                                                             |
+| [Eir](https://github.com/Lixody/Eir)                                    | CLI     | `nikic/php-parser`  | Written in C#.                                                                      |
 | [PHP Reaper](https://github.com/emanuil/php-reaper)                     | CLI     | `nikic/php-parser`  | Scan ADOdb code for SQL Injections.                                                 |
 | [TaintPHP](https://github.com/olivo/TaintPHP)                           | CLI     | `nikic/php-parser`  | Static Taint Analysis.                                                              |
 | [Side Channel Analyzer](https://github.com/olivo/side-channel-analyzer) | CLI     | `olivo/TaintPHP`    | Search for [Side-channel attack](https://en.wikipedia.org/wiki/Side-channel_attack) |
