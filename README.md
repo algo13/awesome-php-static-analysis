@@ -134,7 +134,9 @@ A curated list of static analysis tools for PHP.
 #### API documentation generator
 
 *   [phpDocumentor](https://www.phpdoc.org/)
+*   [ApiGen](https://github.com/apigen/apigen)
 *   [Sami](https://github.com/FriendsOfPHP/Sami)
+*   [phpDox](https://github.com/theseer/phpdox)
 *   [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
 
 #### Benchmark
