@@ -86,7 +86,7 @@ A curated list of static analysis tools for PHP.
 | [TaintPHP](https://github.com/olivo/TaintPHP)                           | CLI     | `nikic/php-parser`  | Static Taint Analysis.                                                              |
 | [Side Channel Analyzer](https://github.com/olivo/side-channel-analyzer) | CLI     | `olivo/TaintPHP`    | Search for [Side-channel attack](https://en.wikipedia.org/wiki/Side-channel_attack) |
 
-*   [XSS code sniffer](http://pecl.php.net/package/taint) - taint extension.
+*   [XSS code sniffer](http://pecl.php.net/package/taint) - Taint extension.
 *   [versionscan](https://github.com/psecio/versionscan) - Security check for PHP Version.
 *   [Scanner for PHP.ini](https://github.com/psecio/iniscan) - Security check for `php.ini`.
 *   [SensioLabs Security Checker](https://github.com/sensiolabs/security-checker) - Security check for `composer.lock`.
@@ -114,6 +114,7 @@ A curated list of static analysis tools for PHP.
 *   [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser)
 *   [PHPDoc to Type Hint](https://github.com/dunglas/phpdoc-to-typehint)
 *   [Transphpile: A PHP 7 to PHP 5.6 transpiler](https://github.com/jaytaph/Transphpile)
+*   [PHP 5.4 Short Array Syntax Converter](https://github.com/thomasbachem/php-short-array-syntax-converter) - array() to [].
 
 ### Metrics
 
@@ -173,10 +174,10 @@ A curated list of static analysis tools for PHP.
 *   [PHPCI](https://www.phptesting.org/)
 *   [Scrutinizer](https://scrutinizer-ci.com/)
 *   [SensioLabsInsight](https://insight.sensiolabs.com/)
-*   [Checkmarx](http://lp.checkmarx.com/php-code-analysis/) - PHP Code Security Analysis.
+*   [Code Climate](https://codeclimate.com) - `PHP Code Sniffer`, `PHP Mess Detector`, `Phan`.
 *   [Codacy](https://www.codacy.com/)
+*   [Checkmarx](http://lp.checkmarx.com/php-code-analysis/) - PHP Code Security Analysis.
 *   [RIPS](https://www.ripstech.com/) - Automated Security Analysis for PHP Code.
-*   [Code Climate](https://codeclimate.com) - `PHP Code Sniffer`, `PHP Mess Detector`.
 *   [Bliss](https://blissai.com)
 
 ## Misc
