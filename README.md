@@ -185,4 +185,5 @@ A curated list of static analysis tools for PHP.
 *   [PHP_CodeBrowser](https://github.com/mayflower/PHP_CodeBrowser) - Generates a browsable representation of PHP code where sections with violations found by quality assurance tools such as `PHP_CodeSniffer` or `PHPMD` are highlighted.
 *   [PHP Analysis](https://github.com/cwi-swat/php-analysis) - PHP Analysis in Rascal (PHP AiR).
 *   [PHPPHP](https://github.com/ircmaxell/PHPPHP) - A PHP VM implementation in PHP.
+*   [php.js](https://github.com/niklasvh/php.js) - PHP VM in JavaScript.
 
