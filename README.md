@@ -50,15 +50,17 @@ A curated list of static analysis tools for PHP.
 | [Phan](https://github.com/etsy/phan)              | PHP7+<br>[php-ast](https://github.com/nikic/php-ast)           |         | YES  | `nikic/php-ast`       |                                                                 |
 | [PHPMD](https://github.com/phpmd/phpmd)           | PHP5.3+                                                        |         | YES  | `pdepend/pdepend`     | cleancode,codesize<br>controversial,design<br>naming,unusedcode |
 | [PHP SA](https://github.com/ovr/phpsa)            | PHP5.5+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    |                                                                 |
-| [PHPLinter](https://github.com/robotis/PHPLinter) |                                                                |         | NO   |                       | Updated on 16 Aug 2012                                          |
 | [PHPStan](https://github.com/phpstan/phpstan)     | PHP7+                                                          | PHP5.6+ | NO   | `nikic/php-parser`    |                                                                 |
 | [php-nag](https://github.com/algo13/php-nag)      | PHP5.4+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    | Deprecated functions,<br>Fall through, etc ...                  |
 | [Tuli](https://github.com/ircmaxell/Tuli)         | PHP5.5+                                                        |         | NO   | `ircmaxell/php-types` | Function Types                                                  |
+| [PHPLinter](https://github.com/robotis/PHPLinter) |                                                                |         | NO   |                       | Latest commit on 16 Aug 2012                                    |
 
 *   [17eyes](https://github.com/17eyes/17eyes) - Written in Haskell.
 *   [Yasca](http://yasca.org) - Including [PHPLint](http://www.icosaedro.it/phplint/).
-*   [SonarQube](http://www.sonarqube.org) - Open platform to manage code quality.
-*   [SonarLint](http://www.sonarlint.org) - An extension to your favorite IDE.
+*   [SonarSource](https://www.sonarsource.com/)
+    *   [SonarQube](http://www.sonarqube.org) - Open platform to manage code quality.
+    *   [SonarLint](http://www.sonarlint.org) - An extension to your favorite IDE.
+    *   [SonarLint for Command Line](http://www.sonarlint.org/commandline/) - CLI tool.
 *   [Php Inspections (EA Extended)](https://github.com/kalessil/phpinspectionsea) - [PhpStorm](https://www.jetbrains.com/phpstorm/) plugin.
 
 #### Bugs finders(Specialized)
