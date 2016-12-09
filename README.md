@@ -45,15 +45,16 @@ A curated list of static analysis tools for PHP.
     *   [PHPLint](https://github.com/overtrue/phplint) - A tool that can speed up linting of php files by running several lint processes at once.
 
 
-| Name                                              | Run                                                            | Target  | phar | Depend                | Notes                                                           |
-|---------------------------------------------------|----------------------------------------------------------------|---------|------|-----------------------|-----------------------------------------------------------------|
-| [Phan](https://github.com/etsy/phan)              | PHP7+<br>[php-ast](https://github.com/nikic/php-ast)           |         | YES  | `nikic/php-ast`       |                                                                 |
-| [PHPMD](https://github.com/phpmd/phpmd)           | PHP5.3+                                                        |         | YES  | `pdepend/pdepend`     | cleancode,codesize<br>controversial,design<br>naming,unusedcode |
-| [PHP SA](https://github.com/ovr/phpsa)            | PHP5.5+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    |                                                                 |
-| [PHPStan](https://github.com/phpstan/phpstan)     | PHP7+                                                          | PHP5.6+ | NO   | `nikic/php-parser`    |                                                                 |
-| [php-nag](https://github.com/algo13/php-nag)      | PHP5.4+                                                        | PHP5.2+ | YES  | `nikic/php-parser`    | Deprecated functions,<br>Fall through, etc ...                  |
-| [Tuli](https://github.com/ircmaxell/Tuli)         | PHP5.5+                                                        |         | NO   | `ircmaxell/php-types` | Function Types                                                  |
-| [PHPLinter](https://github.com/robotis/PHPLinter) |                                                                |         | NO   |                       | Latest commit on 16 Aug 2012                                    |
+| Name                                                  | Run                                                  | Target  | phar | Depend                | Notes                                                           |
+|-------------------------------------------------------|------------------------------------------------------|---------|------|-----------------------|-----------------------------------------------------------------|
+| [Phan](https://github.com/etsy/phan)                  | PHP7+<br>[php-ast](https://github.com/nikic/php-ast) |         | YES  | `nikic/php-ast`       |                                                                 |
+| [PHPMD](https://github.com/phpmd/phpmd)               | PHP5.3+                                              |         | YES  | `pdepend/pdepend`     | cleancode,codesize<br>controversial,design<br>naming,unusedcode |
+| [PHP SA](https://github.com/ovr/phpsa)                | PHP5.5+                                              | PHP5.2+ | YES  | `nikic/php-parser`    |                                                                 |
+| [PHPStan](https://github.com/phpstan/phpstan)         | PHP7+                                                | PHP5.6+ | NO   | `nikic/php-parser`    |                                                                 |
+| [php-nag](https://github.com/algo13/php-nag)          | PHP5.4+                                              | PHP5.2+ | YES  | `nikic/php-parser`    | Deprecated functions,<br>Fall through, etc ...                  |
+| [Tuli](https://github.com/ircmaxell/Tuli)             | PHP5.5+                                              |         | NO   | `ircmaxell/php-types` | Latest commit on 24 Oct 2015                                    |
+| [magniffer](https://github.com/magento-ecg/magniffer) |                                                      |         | NO   | `nikic/php-parser`    | Latest commit on 16 Dec 2015                                    |
+| [PHPLinter](https://github.com/robotis/PHPLinter)     |                                                      |         | NO   |                       | Latest commit on 16 Aug 2012                                    |
 
 *   [17eyes](https://github.com/17eyes/17eyes) - Written in Haskell.
 *   [Yasca](http://yasca.org) - Including [PHPLint](http://www.icosaedro.it/phplint/).
@@ -73,7 +74,7 @@ A curated list of static analysis tools for PHP.
 | [PhpCodeAnalyzer](https://github.com/wapmorgan/PhpCodeAnalyzer)               | NO   |                        | Finds usage of non-built-in extensions.                                              |
 | [PHP Assumption](https://github.com/rskuipers/php-assumptions)                | NO   | `nikic/php-parser`     | Finds [weak assumptions](http://rskuipers.com/entry/from-assumptions-to-assertions). |
 | [PHP Unlocker](http://emanuilslavov.com/php-unlocker/)                        | NO   | `nikic/php-parser`     | Scan [ADOdb](http://adodb.org/dokuwiki/doku.php) code for unintended table locks.    |
-| [twig-lint](https://github.com/asm89/twig-lint)                               | YES  |                        | Standalone [twig](http://twig.sensiolabs.org/) linter.                               |
+| [twig-lint](https://github.com/asm89/twig-lint)                               | YES  |                        | Standalone [Twig](http://twig.sensiolabs.org/) linter.                               |
 
 
 #### Bugs finders(Security)
@@ -88,6 +89,8 @@ A curated list of static analysis tools for PHP.
 | [PHP Reaper](https://github.com/emanuil/php-reaper)                     | CLI     | `nikic/php-parser`  | Scan ADOdb code for SQL Injections.                                                 |
 | [TaintPHP](https://github.com/olivo/TaintPHP)                           | CLI     | `nikic/php-parser`  | Static Taint Analysis.                                                              |
 | [Side Channel Analyzer](https://github.com/olivo/side-channel-analyzer) | CLI     | `olivo/TaintPHP`    | Search for [Side-channel attack](https://en.wikipedia.org/wiki/Side-channel_attack) |
+| [phantm](https://github.com/colder/phantm)                              | CLI     |                     | Latest commit on 8 Oct 2012                                                         |
+| [Pixy](https://github.com/oliverklee/pixy)                              | CLI     |                     | Latest commit on 20 Dec 2014                                                        |
 
 *   [XSS code sniffer](http://pecl.php.net/package/taint) - Taint extension.
 *   [versionscan](https://github.com/psecio/versionscan) - Security check for `PHP Version`.
@@ -124,6 +127,7 @@ A curated list of static analysis tools for PHP.
 
 *   [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser)
 *   [PHPDoc to Type Hint](https://github.com/dunglas/phpdoc-to-typehint)
+*   [PHP Transpiler](https://github.com/original-brownbear/php-transpiler) - PHP minifier.
 
 ### Metrics
 
@@ -191,9 +195,12 @@ A curated list of static analysis tools for PHP.
 
 ## Misc
 
+*   [Box](https://github.com/box-project/box2) - An application for building and managing Phars.
 *   [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker)
 *   [PHP_CodeCoverage](https://github.com/sebastianbergmann/php-code-coverage)
 *   [PHP_CodeBrowser](https://github.com/mayflower/PHP_CodeBrowser) - Generates a browsable representation of PHP code where sections with violations found by quality assurance tools such as `PHP_CodeSniffer` or `PHPMD` are highlighted.
+*   [HHVM](http://hhvm.com/) ([Tools](https://docs.hhvm.com/hack/tools/))
+*   [hussar](https://github.com/wayfair/hussar) - PHP static analysis with HHVM.
 *   [PHP Analysis](https://github.com/cwi-swat/php-analysis) - PHP Analysis in Rascal (PHP AiR).
 *   [PHPPHP](https://github.com/ircmaxell/PHPPHP) - A PHP VM implementation in PHP.
 *   [php.js](https://github.com/niklasvh/php.js) - PHP VM in JavaScript.
