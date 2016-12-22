@@ -153,9 +153,9 @@ A curated list of static analysis tools for PHP.
 
 #### UML
 
-[phUML](https://github.com/jakobwesthoff/phuml) - Require [Graphviz](http://www.graphviz.org/)
-[php-plantumlwriter](https://github.com/davidfuhr/php-plantumlwriter) - Require [PlantUML](http://plantuml.com/)
-[PHP_UML](http://pear.php.net/package/PHP_UML/)
+*   [phUML](https://github.com/jakobwesthoff/phuml) - Require [Graphviz](http://www.graphviz.org/)
+*   [php-plantumlwriter](https://github.com/davidfuhr/php-plantumlwriter) - Require [PlantUML](http://plantuml.com/)
+*   [PHP_UML](http://pear.php.net/package/PHP_UML/)
 
 #### Benchmark
 
