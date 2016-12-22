@@ -96,7 +96,7 @@ A curated list of static analysis tools for PHP.
 *   [versionscan](https://github.com/psecio/versionscan) - Security check for `PHP Version`.
 *   [Scanner for PHP.ini](https://github.com/psecio/iniscan) - Security check for `php.ini`.
 *   [Security Advisories Checker](https://security.sensiolabs.org/) ([Web Service / API](https://security.sensiolabs.org/api), [Online Checker](https://security.sensiolabs.org/check)) - Security check for `composer.lock`.
-    * [PHP Security Advisories Database](https://github.com/FriendsOfPHP/security-advisories)
+    *   [PHP Security Advisories Database](https://github.com/FriendsOfPHP/security-advisories)
         *   [SensioLabs Security Checker](https://github.com/sensiolabs/security-checker) - CLI tool.
         *   [Roave Security Advisories](https://github.com/Roave/SecurityAdvisories) - The checks are executed when running `composer` command.
 *   [WPScan](https://wpscan.org/) - [WordPress](https://wordpress.com/) vulnerability scanner.
@@ -149,6 +149,13 @@ A curated list of static analysis tools for PHP.
 *   [Sami](https://github.com/FriendsOfPHP/Sami)
 *   [phpDox](https://github.com/theseer/phpdox)
 *   [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
+    *   [doxygen-php-filters](https://github.com/AbcAeffchen/doxygen-php-filters)
+
+#### UML
+
+[phUML](https://github.com/jakobwesthoff/phuml) - Require [Graphviz](http://www.graphviz.org/)
+[php-plantumlwriter](https://github.com/davidfuhr/php-plantumlwriter) - Require [PlantUML](http://plantuml.com/)
+[PHP_UML](http://pear.php.net/package/PHP_UML/)
 
 #### Benchmark
 
