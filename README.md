@@ -103,6 +103,7 @@ A curated list of static analysis tools for PHP.
 
 ### Coding standards
 
+*   [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) - Best intro tool for Coding Standards. Combine PHP_CodeSniffe and PHP-CS-Fixer.
 *   [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) - The PSR-1 and PSR-2 Coding Standards **fixer**.
 *   [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - `phpcs`(Checker), `phpcbf`(Fixer).
 *   [PHPCheckstyle](https://github.com/PHPCheckstyle/phpcheckstyle)
