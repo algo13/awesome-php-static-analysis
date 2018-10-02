@@ -2,13 +2,16 @@
 
 A curated list of static analysis tools for PHP.
 
-*   [Awesome PHP](https://github.com/ziadoz/awesome-php) - #Code Analysis
-*   [Awesome static analysis](https://github.com/mre/awesome-static-analysis) - #PHP
+## Alternative lists
+
+*   [Awesome PHP](https://github.com/ziadoz/awesome-php#code-analysis) - See `#Code Analysis`, `#Code Quality` and 
+`#Static Analysis` sections.
+*   [Awesome static analysis](https://github.com/mre/awesome-static-analysis#php) - See `#PHP` section.
 *   [Static analysis tools for PHP](https://github.com/exakat/php-static-analysis-tools)
 
 ## Table of Contents
 
-*   Standalone
+*   [Standalone](#standalone)
     *   [Bugs finders](#bugs-finders)
         *   [Bugs finders(Specialized)](#bugs-findersspecialized)
         *   [Bugs finders(Security)](#bugs-finderssecurity)
